@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("./atardecer.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.contenedor {
+    background: white;
+    width: 400px;
+    
+    justify-content: center;
+}
+
+#regresiva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 10px 0px 10px;
+    font-size: 75px;
+}
+
+.botones{
+    border-radius: 3px;
+    background: blue;
+    border: blue;
+    color: white;
+    font-size: 15px;
+    width: 130px;
+    height: 35px;
+    margin: 0px 10px 10px 10px;
+}
+#formulario-pomodoro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actividad{
+    font-size: 15px;
+    margin: 0px 10px 10px 10px;
+}
+
+.contenedor2{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.botones2{
+    border-radius: 3px;
+    background: blue;
+    border: blue;
+    color: white;
+    font-size: 15px;
+    width: 130px;
+    height: 35px;
+    margin: 0px 10px 10px 10px;
+}
